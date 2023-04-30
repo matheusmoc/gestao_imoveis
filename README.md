@@ -2,15 +2,15 @@
 
 - `Funcionalidade 1` `Gerente`: 
    - [x] Cadastro de clientes
-   - [] Cadastro de produtos
-   - [] Liberar desconto
-   - [] Estorno de venda
-   - [] Realização de venda
-   - [] Emissão de relatório
-   - [] Realização de orçamento
-   - [] Criar etiqueta de produto
-   - [] Liberar crédito
-   - [] Aceitar devolução
+   - [ ] Cadastro de produtos
+   - [ ] Liberar desconto
+   - [ ] Estorno de venda
+   - [ ] Realização de venda
+   - [ ] Emissão de relatório
+   - [ ] Realização de orçamento
+   - [ ] Criar etiqueta de produto
+   - [ ] Liberar crédito
+   - [ ] Aceitar devolução
 
 - `Funcionalidade 2` `Vendedor`: 
    - [ ] Cadastro de clientes
