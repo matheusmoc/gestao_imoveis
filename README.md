@@ -1,10 +1,10 @@
 ## 🔨 Funcionalidades do projeto
 
 - `Funcionalidade 1` `Gerente`: 
+   - [x] Cadastro de clientes
    - [] Cadastro de produtos
    - [] Liberar desconto
    - [] Estorno de venda
-   - [] Cadastro de clientes
    - [] Realização de venda
    - [] Emissão de relatório
    - [] Realização de orçamento
