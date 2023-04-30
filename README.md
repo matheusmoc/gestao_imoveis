@@ -13,15 +13,15 @@
    - [] Aceitar devolução
 
 - `Funcionalidade 2` `Vendedor`: 
-   - [] Cadastro de clientes
-   - [] Realização de vendas
-   - [] Consultar estoque
-   - [] Sinalizar para o gerente
-   - [] Ver comissões
-   - [] Realizar orçamento
+   - [ ] Cadastro de clientes
+   - [ ] Realização de vendas
+   - [ ] Consultar estoque
+   - [ ] Sinalizar para o gerente
+   - [ ] Ver comissões
+   - [ ] Realizar orçamento
 
 - `Funcionalidade 3` `Caixa`: 
-   - [] Abrir caixa
-   - [] Fechar caixa
-   - [] Finalizar compra
-   - [] Fluxo de caixa
+   - [ ] Abrir caixa
+   - [ ] Fechar caixa
+   - [ ] Finalizar compra
+   - [ ] Fluxo de caixa
