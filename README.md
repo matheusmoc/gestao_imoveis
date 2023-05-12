@@ -2,14 +2,14 @@
 
 - `Funcionalidade 1` `Gerente`: 
    - [x] Cadastro de vendedores
-   - [ ] Cadastro de clientes
-   - [ ] Cadastro de produtos
+   - [x] Cadastro de produtos
+   - [ ] Criar etiqueta de produto
    - [ ] Liberar desconto
+   - [ ] Cadastro de clientes
    - [ ] Estorno de venda
    - [ ] Realização de venda
    - [ ] Emissão de relatório
    - [ ] Realização de orçamento
-   - [ ] Criar etiqueta de produto
    - [ ] Liberar crédito
    - [ ] Aceitar devolução
 
