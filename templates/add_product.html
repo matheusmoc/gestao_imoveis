@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block 'body'%}
+<div class="h-100">
+    <form class="container mt-5" action="{% url 'add_product'%}" method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div>
+            <label>Nome:</label>
+            <input class="form-control" name="name">
+            <br>
+            <label>Selecione a categoria do produto</label>
+            <select class="form-control" name="category">
+                {% for category in categories %}
+                    <option value="{{category.id}}">{{category.title}}</option>
+                {% endfor %}
+            </select>
+            <br>
+            <label>Imagens:</labek>
+            <input class="form-control" type="file" name="images" multiple>
+        </div> 
+        <hr class="bg-hr">
+                <div class="row">
+                    <div class="col-2">  
+                        <label>Quantidade:</labek>
+                        <input class="form-control" type="number" name="qty">
+                    </div>
+                    <div class="col-2">  
+                        <label>Preço de compra:</labek>
+                        <input class="form-control" type="number" name="purchase_price">
+                    </div>
+                    <div class="col-2">  
+                        <label>Preço de venda:</labek>
+                        <input class="form-control" type="number" name="sale_price">
+                    </div>  
+                </div>
+                <br>
+                <br>
+            <div class="d-flex justify-content-center">
+                <input type="submit" class="btn btn-success w-50" value="Adicionar"> 
+            </div>
+        </form>
+</div>
+{% endblock %}

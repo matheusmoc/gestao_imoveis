@@ -17,9 +17,14 @@ class Product(models.Model):
     def __str__(self) -> str:
         return self.name
     
-    def discount(self, discount):
+    def discount(self, discount): #valor de venda - o valor do desconto = valor atual do produto
         return self.sale_price - ((self.purchase_price * discount) / 100)
 
-    def profit(self):
+    def profit(self): #lucro da venda menos a compra em porcentagem
         profit = self.sale_price - self.purchase_price
         return (profit * 100) / self.purchase_price
+    
+
+class ProductImage(models.Model):
+    image = models.ImageField(upload_to="product_image")
+    product = models.ForeignKey(Product, on_delete=models.CASCADE)
