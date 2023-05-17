@@ -31,6 +31,10 @@ def add_product(request):
         product.save()
 
         for f in images:
+  
+        #    img = ProductImage(image = f, product=product)
+        #    img.save()
+
            name = f'{date.today()}-{product.id}.jpg'
            img = Image.open(f) #abrir imagem com o pillow
            img = img.convert('RGB') #padrão RGB
